@@ -1,4 +1,4 @@
-package br.tec.abrindoportas.funcao;
+package br.tec.abrindoportas.controller;
 
 import java.util.Scanner;
 
