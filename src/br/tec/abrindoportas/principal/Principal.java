@@ -15,14 +15,14 @@ public class Principal {
 		
 			// BLOCO - Entrada de dados
 			System.out.println("Digite o seu nome: ");
-			name = read.next();
+			name = read.next(); // "Edir Santos"
 			System.out.println("Digite o seu CPF: ");
 			cpf = read.next();
 			System.out.println("Digite o seu Telefone: ");
-			phoneNumber = read.next();
+			phoneNumber = read.next(); //"61 98406-7817"
 			
 			System.out.println("Digite a 1ª nota: ");
-			nota1 = read.nextDouble();
+			nota1 = read.nextDouble(); // 8
 			
 			System.out.println("Digite a 2ª nota: ");
 			nota2 = read.nextDouble();
@@ -48,17 +48,17 @@ public class Principal {
 				
 				if(mediar >= 5) {
 					System.out.println("Aluno: " + name 
-							+ "de CPF: " + cpf 
-							+ "Telefone: " + phoneNumber
-							+ "Aprovado com média: " + mediar);
+							+ " de CPF: " + cpf 
+							+ " Telefone: " + phoneNumber
+							+ " Aprovado com média: " + mediar);
 				}else {
 					System.out.println("Aluno: " + name 
-							+ "de CPF: " + cpf 
-							+ "Telefone: " + phoneNumber
-							+ "Reprovado com média: " + mediar);
+							+ " de CPF: " + cpf 
+							+ " Telefone: " + phoneNumber
+							+ " Reprovado com média: " + mediar);
 				}
 			}
 		}
 		
-	} // fim metohod main
+	} // fim method main
 } //fim class Principal
