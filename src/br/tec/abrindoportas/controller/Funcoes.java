@@ -39,10 +39,37 @@ public class Funcoes {
 			}
 		}
 	}
-
-	public void sequenciaS() {
-		// TODO Auto-generated method stub
+	
+	/*
+	 * Criar um programa que recebe um numero e verifica se
+	 * ele está entre 0 e 10 e se 
+	 * é par
+	 */
+	public void verificaPar() {
+		//variável
+		int numero;
+		Scanner read = new Scanner(System.in);
 		
+		//entrada dados
+		System.out.println("Digite o número: ");
+		numero = read.nextInt();
+		
+		//processamento e saída dados
+		if((numero >= 0) && (numero <= 10)) {
+			if(numero % 2 == 0) {
+				System.out.println("O numero " 
+					+ numero 
+					+ " está entre a faixa de 0 a 10 e é par");
+			}else {
+				System.out.println("O numero " 
+						+ numero 
+						+ " está na faixa de 0 a 10 e não é par");
+			}
+		}else {
+			System.out.println("O numero " 
+					+ numero 
+					+ " não está entre a faixa de 0 a 10.");
+		}
 		
 	}
 }
