@@ -1,7 +1,11 @@
 package br.tec.abrindoportas.controller;
 
 import java.util.Scanner;
-
+/*
+ * Assunto: Esta classe reune todas as funções para o programa
+ * Author: Edir Pereira
+ * Data hora: 14/05/2024 - 09:06:02 
+ */
 public class Funcoes {
 
 	public void mediaAritmetica() {
@@ -83,9 +87,9 @@ public class Funcoes {
 //		dayWeekend = read.nextInt();
 		
 		while(dayWeekend != 0) {
-			System.out.println("Dentro do enquanto");
+			System.out.println("");
 			System.out.println("Digite o dia da semana:");
-			System.out.println("1 = Domingo,\n2 = Segunda,\n0 = Sair");
+			System.out.println("1 = Domingo,\n2 = Segunda,\n3 = Terça,\n4 = Quarta,\n5 = Quinta,\n6 = Sexta,\n7 = Sábado,\n0 = Sair");
 			dayWeekend = read.nextInt();
 			
 			//Esta estrutura serve para escolher uma opção. Retorna dia da semana.
@@ -119,7 +123,7 @@ public class Funcoes {
 					break;
 				}
 				default: {
-					System.out.println("\nOpção escolhida é existente.");
+					System.out.println("\nOpção escolhida é inexistente.");
 				}
 			
 			}
