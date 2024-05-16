@@ -17,11 +17,9 @@ public class PeopleController {
 		peopleModel.setLastName(JOptionPane.showInputDialog(null, "Digite o Sobre Nome: "));
 		peopleModel.setCpf(JOptionPane.showInputDialog(null, "Digite o CPF: "));
 		peopleModel.setEndereco(JOptionPane.showInputDialog(null, "Digite o Endereço: "));
-		
 		peopleModel.setIdade(Integer.parseInt(JOptionPane.showInputDialog(null, "Digite a Idade: ")));
-		
 		peopleModel.setCidade(JOptionPane.showInputDialog(null, "Digite o primeiro nome: "));
-		peopleModel.setSalario(JOptionPane.showInputDialog(null, "Digite o Salário: "));
+		peopleModel.setSalario(Double.parseDouble(JOptionPane.showInputDialog(null, "Digite o Salário: ")));
 		
 		JOptionPane.showMessageDialog(null, peopleModel);
 
