@@ -1,14 +1,16 @@
 package br.tec.abrindoportas.model;
-
+/*
+ * MVC - Model
+ */
 public class PeopleModel {
 	
-	private String firstName;
-	private String lastName;
-	private String cpf;
-	private int idade;
-	private String endereco;
-	private String cidade;
-	private double salario;
+	 String firstName;
+	 String lastName;
+	 String cpf;
+	 int idade;
+	 String endereco;
+	 String cidade;
+	 double salario;
 	
 	public PeopleModel() {
 		super();
@@ -82,12 +84,19 @@ public class PeopleModel {
 		this.salario = salario;
 	}
 
+	public void imprimeInfo() {
+		System.out.println("Nome: " + this.firstName);
+	}
+	
 	@Override
 	public String toString() {
-		return "People [firstName=" + firstName + ", lastName=" + lastName 
-				+ ", cpf=" + cpf + ", idade=" + idade
-				+ ", endereco=" + endereco + ", cidade=" + cidade 
-				+ ", salario=" + salario + "]";
+		return "People [firstName=" + firstName 
+					+ ", lastName=" + lastName 
+					+ ", cpf=" + cpf 
+					+ ", idade=" + idade
+					+ ", endereco=" + endereco 
+					+ ", cidade=" + cidade 
+					+ ", salario=" + salario + "]";
 	}
 		
 }
