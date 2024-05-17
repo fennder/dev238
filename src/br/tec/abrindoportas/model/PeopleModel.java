@@ -10,14 +10,14 @@ public class PeopleModel {
 	 int idade;
 	 String endereco;
 	 String cidade;
-	 double salario;
+	
 	
 	public PeopleModel() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
 
-	public PeopleModel(String firstName, String lastName, String cpf, int idade, String endereco, String cidade, double salario) {
+	public PeopleModel(String firstName, String lastName, String cpf, int idade, String endereco, String cidade) {
 		super();
 		this.firstName = firstName;
 		this.lastName = lastName;
@@ -25,7 +25,7 @@ public class PeopleModel {
 		this.idade = idade;
 		this.endereco = endereco;
 		this.cidade = cidade;
-		this.salario = salario;
+		
 	}
 
 	public String getFirstName() {
@@ -75,17 +75,9 @@ public class PeopleModel {
 	public void setCidade(String cidade) {
 		this.cidade = cidade;
 	}
-
-	public double getSalario() {
-		return salario;
-	}
-
-	public void setSalario(double salario) {
-		this.salario = salario;
-	}
-
-	public void imprimeInfo() {
-		System.out.println("Nome: " + this.firstName);
+	
+	public void tipoPeople() {
+		System.out.println("Esta pessoa é obesa.");
 	}
 	
 	@Override
@@ -95,8 +87,7 @@ public class PeopleModel {
 					+ ", cpf=" + cpf 
 					+ ", idade=" + idade
 					+ ", endereco=" + endereco 
-					+ ", cidade=" + cidade 
-					+ ", salario=" + salario + "]";
+					+ ", cidade=" + cidade + "]";
 	}
 		
 }

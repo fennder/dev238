@@ -16,13 +16,12 @@ public class PeopleController {
 		peopleModel.setFirstName(JOptionPane.showInputDialog(null, "Digite o Primeiro Nome: "));
 		peopleModel.setLastName(JOptionPane.showInputDialog(null, "Digite o Sobre Nome: "));
 		peopleModel.setCpf(JOptionPane.showInputDialog(null, "Digite o CPF: "));
-		peopleModel.setEndereco(JOptionPane.showInputDialog(null, "Digite o Endereço: "));
 		peopleModel.setIdade(Integer.parseInt(JOptionPane.showInputDialog(null, "Digite a Idade: ")));
-		peopleModel.setCidade(JOptionPane.showInputDialog(null, "Digite o primeiro nome: "));
-		peopleModel.setSalario(Double.parseDouble(JOptionPane.showInputDialog(null, "Digite o Salário: ")));
+		peopleModel.setEndereco(JOptionPane.showInputDialog(null, "Digite o Endereço: "));
+		peopleModel.setCidade(JOptionPane.showInputDialog(null, "Digite o Cidade: "));
 		
 		JOptionPane.showMessageDialog(null, peopleModel);
-
+		
 //		System.out.println(peopleModel.toString());
 //
 //		System.out.println("Nome: " + peopleModel.getFirstName() 
@@ -30,8 +29,7 @@ public class PeopleController {
 //					+ "\nCPF: " + peopleModel.getCpf()
 //					+ "\nEndereço: " + peopleModel.getEndereco()
 //					+ "\nIdade: " + peopleModel.getIdade()
-//					+ "\nCidade: " + peopleModel.getCidade()
-//					+ "\nSalario: " + peopleModel.getSalario());
+//					+ "\nCidade: " + peopleModel.getCidade();
 
 	}
 
