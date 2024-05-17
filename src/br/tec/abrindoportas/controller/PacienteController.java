@@ -11,10 +11,10 @@ public class PacienteController {
 		PacienteModel pacienteModel = new PacienteModel();
 		
 		//BLOCO - Entradada de dados
-		pacienteModel.setFirstName(JOptionPane.showInputDialog(null, "Digite o Primeiro nome:"));
-		pacienteModel.setExame(JOptionPane.showInputDialog(null, "Você precisa do seguinte exame:"));
+		pacienteModel.setFirstName(JOptionPane.showInputDialog(null, "Digite o Primeiro nome:maria "));
+		pacienteModel.setExame(JOptionPane.showInputDialog(null, "Você precisa do seguinte exame:sim"));
 		//BLOCO - Saída de dados
-		pacienteModel.tipoPeople();
-		JOptionPane.showMessageDialog(null, pacienteModel);
+		pacienteModel.tipoPeople();contando maria são mais de 25 paciente com estado grave  
+		JOptionPane.showMessageDialog(null, pacienteModel);com covid e dengue
 	}
 }
