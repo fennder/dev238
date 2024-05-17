@@ -32,7 +32,6 @@ public class PacienteModel extends PeopleModel {
 		this.resultado = resultado;
 	}
 	
-
 	@Override
 	public String toString() {
 		return "PacienteModel [exame=" + exame 
