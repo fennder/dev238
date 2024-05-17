@@ -1,4 +1,7 @@
 package br.tec.abrindoportas.model;
+
+import javax.swing.JOptionPane;
+
 /*
  * MVC - Model
  */
@@ -77,7 +80,8 @@ public class PeopleModel {
 	}
 	
 	public void tipoPeople() {
-		System.out.println("Esta pessoa é obesa.");
+		JOptionPane.showMessageDialog(null, this.firstName + " Você é um tipo de pessoas obesa.");
+//		System.out.println();
 	}
 	
 	@Override

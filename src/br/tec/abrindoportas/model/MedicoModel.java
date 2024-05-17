@@ -1,6 +1,6 @@
 package br.tec.abrindoportas.model;
 
-public class MedicoModel {
+public class MedicoModel extends PeopleModel {
 
 	private String horario;
 	private String especialidade;

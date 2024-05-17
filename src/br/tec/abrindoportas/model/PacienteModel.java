@@ -1,6 +1,6 @@
 package br.tec.abrindoportas.model;
 
-public class PacienteModel extends PeopleModel{
+public class PacienteModel extends PeopleModel {
 
 	private String exame;
 	private String resultado;

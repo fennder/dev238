@@ -14,8 +14,8 @@ public class Principal {
 //		PeopleController peopleController = new PeopleController();
 //		peopleController.createPerson();
 	
-//		PacienteController pacienteController = new PacienteController();
-//		pacienteController.create();
+		PacienteController pacienteController = new PacienteController();
+		pacienteController.create();
 		
 		
 	}
