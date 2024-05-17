@@ -4,12 +4,12 @@ package br.tec.abrindoportas.model;
  */
 public class PeopleModel {
 	
-	 String firstName;
-	 String lastName;
-	 String cpf;
-	 int idade;
-	 String endereco;
-	 String cidade;
+	 private String firstName;
+	 private String lastName;
+	 private String cpf;
+	 private int idade;
+	 private String endereco;
+	 private String cidade;
 	
 	
 	public PeopleModel() {

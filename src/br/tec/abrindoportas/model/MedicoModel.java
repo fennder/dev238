@@ -2,8 +2,8 @@ package br.tec.abrindoportas.model;
 
 public class MedicoModel {
 
-	protected String horario;
-	protected String especialidade;
+	private String horario;
+	private String especialidade;
 	
 	public MedicoModel() {
 		super();
